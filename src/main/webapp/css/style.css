@@ -217,11 +217,19 @@ header {
     background: url(../images/bg_slider.png) 0 0 no-repeat
 }
 
+.sb_album {
+    background: url(../images/bg_slider-album.png) 0 0 no-repeat
+}
+
 .slider {
     position: relative;
     width: 950px;
     height: 408px;
     z-index: 88
+}
+
+.s_album {
+    height: 713px;
 }
 
 /* If an image is wrapped in a link */
