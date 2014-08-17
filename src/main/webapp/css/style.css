@@ -521,3 +521,7 @@ footer a:hover {
     height: 164px;
     margin: 0
 }
+
+.info_text {
+    padding-bottom: 18px;
+}
