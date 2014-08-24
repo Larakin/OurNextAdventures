@@ -1,5 +1,5 @@
 /* Getting the new tags to behave */
-article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+article, aside, audio, canvas, datalist, details, embed, figcaption, figure, footer, header, keygen, meter, nav, output, progress, section, source, video {
     display: block
 }
 
@@ -235,8 +235,8 @@ header {
 /* If an image is wrapped in a link */
 .nivoSlider a.nivo-imageLink {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     border: 0;
@@ -450,12 +450,19 @@ header {
 .address {
     width: 87px;
     float: left;
-    font-weight: bold
+    font-weight: bold;
+}
+
+.details_info {
+    width: 900px;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 /* footer */
 footer {
-    font-size: 12px;;
+    font-size: 12px;
     line-height: 18px;
     text-align: center;
     padding-top: 36px
@@ -524,4 +531,8 @@ footer a:hover {
 
 .info_text {
     padding-bottom: 18px;
+}
+
+.pad_top {
+    padding-top: 10px;
 }
