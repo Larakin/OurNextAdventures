@@ -536,3 +536,9 @@ footer a:hover {
 .pad_top {
     padding-top: 10px;
 }
+
+.bitcoin {
+    position: relative;
+    top: 9px;
+    font-size: 11px;
+}
