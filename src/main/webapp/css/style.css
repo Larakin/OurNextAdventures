@@ -542,3 +542,8 @@ footer a:hover {
     top: 9px;
     font-size: 11px;
 }
+
+#engagementSessionLink {
+    font-weight: bold;
+    font-size: medium;
+}
